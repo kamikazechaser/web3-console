@@ -2,14 +2,14 @@
 
 ### Node.js Command Line REPL with auto-connected web3
 
-`@digix/web3-console` is a small script that automatically hooks up web3 at various endpoints.
+`web3-console` is a small script that automatically hooks up web3 at various endpoints.
 
 It will add a pre-configured `web3` to the console's namespace.
 
 ## Install
 
 ```
-npm install -g @digix/web3-console
+npm install -g https://github.com/imollov/web3-console.git
 ```
 
 ## Usage
@@ -26,8 +26,7 @@ Leave the endpoint blank, and it'll connect to `http://localhost:8545`:
 $ web3-console
 
 RPC Endpoint: http://localhost:8545
-Node Version: Geth/v1.4.17-stable-3885907c/darwin/go1.7.1
-Latest Block: 73813
+Web3 Version: 1.3.0
 
 // node REPL is now available, with `web3`
 > web3.currentProvider
@@ -40,8 +39,7 @@ Pass in a string as an endpoint:
 $ web3-console https://mainnet.infura.io
 
 RPC Endpoint: https://mainnet.infura.io
-Node Version: Parity//v1.4.11-stable-5452f71-20170217/x86_64-linux-gnu/rustc1.15.1
-Latest Block: 3288877
+Web3 Version: 1.3.0
 
 > // node REPL
 ```
@@ -52,12 +50,7 @@ Pass in a number, and it will connect to that port on localhost:
 $  web3-console 6545
 
 RPC Endpoint: http://localhost:6545
-Node Version: EthereumJS TestRPC/v3.0.3/ethereum-js
-Latest Block: 0
+Web3 Version: 1.3.0
 
 > // node REPL
 ```
-
-## TODO
-
-* Implement `web3-provider-engine` options (for transaction signing)
