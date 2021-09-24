@@ -1,6 +1,6 @@
 {
   "name": "web3-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS REPL with connected Web3",
   "main": "index.js",
   "scripts": {
