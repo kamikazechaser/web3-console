@@ -1,5 +1,7 @@
 > Upgraded to web3 1.x and npm namespace is 'web3-cli'
+
 > Because Geth web3 is ancient and this original project isn't maintained anymore
+
 > Start Repl with 'web3-console'
 
 # web3-console
