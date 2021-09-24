@@ -1,3 +1,7 @@
+> Upgraded to web3 1.x and npm namespace is 'web3-cli'
+> Because Geth web3 is ancient and this original project isn't maintained anymore
+> Start Repl with 'web3-console'
+
 # web3-console
 
 ### Node.js Command Line REPL with auto-connected web3
@@ -9,7 +13,7 @@ It will add a pre-configured `web3` to the console's namespace.
 ## Install
 
 ```
-npm install -g https://github.com/imollov/web3-console.git
+npm install -g web3-cli
 ```
 
 ## Usage
